@@ -9,6 +9,7 @@
   <style>
     a {
       text-decoration:none;
+        font-family: 'Nanum Gothic', sans-serif;
     }
     h1 {
       text-align:center;
@@ -16,6 +17,38 @@
       margin:0;
       padding-top:10px;
       padding-bottom:10px;
+    }
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Gothic:wght@700&display=swap');
+    .logo {
+      margin:0;
+      color:#262626;
+      font-family: 'Black Han Sans', sans-serif;
+      font-size: 30px;
+      font-weight: 50px;
+    }
+    .container {
+      width: 200px;
+      height: 300px;
+      margin-top:10px;
+      margin-right:30px;
+      border-radius: 3px;
+      box-shadow: 0px 0px 10px #000;
+      float:right;
+    }
+    .idbox {
+      width: 65%;
+      height: 30px;
+      border: 1px solid;
+      border-radius: 3px;
+      border-color: gray;
+      margin:5px;
+    }
+    .login_button {
+      width:80%;
+      color:white;
+      background-color: #C0DFFD;
+      border-radius: 5px;
+      border-style: none;
     }
     body {
       margin:0;
@@ -26,12 +59,15 @@
       letter-spacing: 0px;
       color: #000;
       font-size: 16px;
-      padding: 15px 50px 34px;
+      padding: 15px 85px 34px;
       line-height: 20px;
       vertical-align: middle;
     }
   </style>
 </head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
 <body>
   <h1>
     <a href="http://gcdaeseong-h.gne.go.kr/gcdaeseong-h/main.do" target="_black">
@@ -43,106 +79,104 @@
   				<header>
   					<div id="web">
   						<nav id="webNavi">
-  							<ul id="gnb">
-  							<li class="mNavi" data-id="185763"><a href="/gcdaeseong-h/ss/schulSymbol/selectSongSymbolInfo.do?mi=188750">학교소개</a>
+  							<ul id="gnb" style="padding-left:0px;">
+  							<li class="mNavi" data-id="185763"><a href="/gcdaeseong-h/ss/schulSymbol/selectSongSymbolInfo.do?mi=188750">커뮤니티</a>
   								<ul class="box" style="display: none;">
-  									<li data-id="188750" class=""><a href="/gcdaeseong-h/ss/schulSymbol/selectSongSymbolInfo.do?mi=188750">학교소개</a>
-  									</li><li data-id="188747" class=""><a href="/gcdaeseong-h/gt/grt/selectGrtView.do?mi=188747">학교장인사</a>
-  									</li><li data-id="188748"><a href="/gcdaeseong-h/hm/hist/selectHistList.do?mi=188748">학교연혁</a>
-  									</li><li data-id="210352"><a href="/gcdaeseong-h/cm/cntnts/cntntsView.do?mi=210352&amp;cntntsId=8510">학교현황</a>
-  									</li><li data-id="188749"><a href="/gcdaeseong-h/jo/jobshare/selectJobShareView.do?mi=188749">교직원소개</a>
-  									</li><li data-id="188942"><a href="/gcdaeseong-h/lm/location/view.do?mi=188942">오시는 길</a>
-  									</li><li data-id="558397"><a href="/gcdaeseong-h/common/schlState.do?mi=558397">학교알리미</a>
+  									<li data-id="188750" class=""><a href="/gcdaeseong-h/ss/schulSymbol/selectSongSymbolInfo.do?mi=188750">오잉</a>
+  									</li><li data-id="188747" class=""><a href="/gcdaeseong-h/gt/grt/selectGrtView.do?mi=188747">오잉</a>
+  									</li><li data-id="188748"><a href="/gcdaeseong-h/hm/hist/selectHistList.do?mi=188748">오잉</a>
+  									</li><li data-id="210352"><a href="/gcdaeseong-h/cm/cntnts/cntntsView.do?mi=210352&amp;cntntsId=8510">오잉</a>
+  									</li><li data-id="188749"><a href="/gcdaeseong-h/jo/jobshare/selectJobShareView.do?mi=188749">오잉</a>
+  									</li><li data-id="188942"><a href="/gcdaeseong-h/lm/location/view.do?mi=188942">오잉</a>
+  									</li><li data-id="558397"><a href="/gcdaeseong-h/common/schlState.do?mi=558397">오잉</a>
   								</li></ul>
   							</li>
-  							<li class="mNavi" data-id="188751"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188752&amp;bbsId=168518">알림마당</a>
+  							<li class="mNavi" data-id="188751"><a href="https://gcdaeseong-h.gne.go.kr/gcdaeseong-h/dv/dietView/selectDietCalendarView.do?mi=231654" target='_blank'>급식</a>
   								<ul class="box" style="display: none;">
-  									<li data-id="188752"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188752&amp;bbsId=168518">공지사항</a>
-  									</li><li data-id="188756"><a href="/gcdaeseong-h/sv/schdulView/schdulCalendarView.do?mi=188756">월중행사계획</a>
-  									</li><li data-id="188754"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188754&amp;bbsId=168520">가정통신문</a>
-  									</li><li data-id="188753"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188753&amp;bbsId=168790">주요 학교소식</a>
-  									</li><li data-id="238755"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=238755&amp;bbsId=217701">대성매거진</a>
-  									</li><li data-id="188784"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188784&amp;bbsId=168547">학교는오늘</a>
-  									</li><li data-id="189035"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=504110&amp;bbsId=201769">학교동영상</a>
-  									</li><li data-id="189011"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=227632&amp;bbsId=206953">급식/기숙사안내</a>
-  									</li><li data-id="188755"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188755&amp;bbsId=168521">방과후학교</a>
-  									</li><li data-id="214765"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=214765&amp;bbsId=194186">보건 안전 교실</a>
-  									</li><li data-id="531904"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=531904&amp;bbsId=5042452">7560+ 및 뇌깨우기</a>
+  									<li data-id="188752"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188752&amp;bbsId=168518">오잉</a>
+  									</li><li data-id="188756"><a href="/gcdaeseong-h/sv/schdulView/schdulCalendarView.do?mi=188756">오잉</a>
+  									</li><li data-id="188754"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188754&amp;bbsId=168520">오잉</a>
+  									</li><li data-id="188753"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188753&amp;bbsId=168790">오잉</a>
+  									</li><li data-id="238755"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=238755&amp;bbsId=217701">오잉</a>
+  									</li><li data-id="188784"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188784&amp;bbsId=168547">오잉</a>
+  									</li><li data-id="189035"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=504110&amp;bbsId=201769">오잉</a>
+  									</li><li data-id="189011"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=227632&amp;bbsId=206953">오잉</a>
+  									</li><li data-id="188755"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188755&amp;bbsId=168521">오잉</a>
+  									</li><li data-id="214765"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=214765&amp;bbsId=194186">오잉</a>
+  									</li><li data-id="531904"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=531904&amp;bbsId=5042452">오잉</a>
   								</li></ul>
   							</li>
-  							<li class="mNavi" data-id="188797"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188798&amp;bbsId=168558">입학안내</a>
+  							<li class="mNavi" data-id="188797"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188798&amp;bbsId=168558">학생회</a>
   								<ul class="box" style="display: none;">
-  									<li data-id="188798" class=""><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188798&amp;bbsId=168558">입학안내</a>
-  									</li><li data-id="188799"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188799&amp;bbsId=168559">잦은질문(FAQ)</a>
-  									</li><li data-id="523376" class=""><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=523376&amp;bbsId=168561">입학상담실</a>
-  									</li><li data-id="523220"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=523004&amp;bbsId=5022887">언론 보도 자료</a>
-  									</li><li data-id="188804"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188804&amp;bbsId=168564">신입생자료실</a>
-  									</li><li data-id="523007" class=""><a href="/gcdaeseong-h/cm/cntnts/cntntsView.do?mi=523007&amp;cntntsId=16298">오시는 길</a>
-  									</li><li data-id="534637"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=534637&amp;bbsId=5045016">합격자발표</a>
+  									<li data-id="188798" class=""><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188798&amp;bbsId=168558">오잉</a>
+  									</li><li data-id="188799"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188799&amp;bbsId=168559">오잉</a>
+  									</li><li data-id="523376" class=""><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=523376&amp;bbsId=168561">오잉</a>
+  									</li><li data-id="523220"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=523004&amp;bbsId=5022887">오잉</a>
+  									</li><li data-id="188804"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188804&amp;bbsId=168564">오잉</a>
+  									</li><li data-id="523007" class=""><a href="/gcdaeseong-h/cm/cntnts/cntntsView.do?mi=523007&amp;cntntsId=16298">오잉</a>
+  									</li><li data-id="534637"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=534637&amp;bbsId=5045016">오잉</a>
   								</li></ul>
   							</li>
   							<li class="mNavi" data-id="188782"><a href="">학생활동</a>
   								<ul class="box" style="display: none;">
-  									<li data-id="524923"><a href="/gcdaeseong-h/cm/cntnts/cntntsView.do?mi=524923&amp;cntntsId=17250">창체동아리방</a>
-  									</li><li data-id="525118"><a href="/gcdaeseong-h/cm/cntnts/cntntsView.do?mi=525118&amp;cntntsId=8506">자율동아리방</a>
-  									</li><li data-id="235827"><a href="/gcdaeseong-h/cm/cntnts/cntntsView.do?mi=503929&amp;cntntsId=8505">꿈키움[경시]마당</a>
-  									</li><li data-id="250949"><a href="/gcdaeseong-h/cm/cntnts/cntntsView.do?mi=506384&amp;cntntsId=8496">해피타임</a>
-  									</li><li data-id="270059"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=270059&amp;bbsId=248630">체험활동방</a>
-  									</li><li data-id="214372"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=214372&amp;bbsId=193791">자료실</a>
-  									</li><li data-id="560217"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=560217&amp;bbsId=5166931">학교폭력신고</a>
+  									<li data-id="524923"><a href="/gcdaeseong-h/cm/cntnts/cntntsView.do?mi=524923&amp;cntntsId=17250">오잉</a>
+  									</li><li data-id="525118"><a href="/gcdaeseong-h/cm/cntnts/cntntsView.do?mi=525118&amp;cntntsId=8506">오잉</a>
+  									</li><li data-id="235827"><a href="/gcdaeseong-h/cm/cntnts/cntntsView.do?mi=503929&amp;cntntsId=8505">오잉</a>
+  									</li><li data-id="250949"><a href="/gcdaeseong-h/cm/cntnts/cntntsView.do?mi=506384&amp;cntntsId=8496">오잉</a>
+  									</li><li data-id="270059"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=270059&amp;bbsId=248630">오잉</a>
+  									</li><li data-id="214372"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=214372&amp;bbsId=193791">오잉</a>
+  									</li><li data-id="560217"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=560217&amp;bbsId=5166931">오잉</a>
   								</li></ul>
   							</li>
   							<li class="mNavi" data-id="188774"><a href="/gcdaeseong-h/cm/cntnts/cntntsView.do?mi=504160&amp;cntntsId=8462">자기주도학습</a>
   								<ul class="box" style="display: none;">
-  									<li data-id="234476"><a href="/gcdaeseong-h/cm/cntnts/cntntsView.do?mi=504160&amp;cntntsId=8462">그룹스터디</a>
-  									</li><li data-id="248015"><a href="/gcdaeseong-h/cb/clubHmpg/selectCbHmpgInfo.do?mi=248015&amp;clubHmpgId=7106">토론활동</a>
-  									</li><li data-id="236047"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=236047&amp;bbsId=204640">교과자료실</a>
-  									</li><li data-id="260150"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=260150&amp;bbsId=238985">과제연구</a>
-  									</li><li data-id="533810"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=533810&amp;bbsId=5043814">대성드림나래_자유주제탐구(2학년)</a>
-  									</li><li data-id="188781"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188781&amp;bbsId=168545">대입자료</a>
-  									</li><li data-id="556218"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=556218&amp;bbsId=5162441">자유주제 진로탐구 프로젝트 발표대회(3학년)</a>
+  									<li data-id="234476"><a href="/gcdaeseong-h/cm/cntnts/cntntsView.do?mi=504160&amp;cntntsId=8462">오잉</a>
+  									</li><li data-id="248015"><a href="/gcdaeseong-h/cb/clubHmpg/selectCbHmpgInfo.do?mi=248015&amp;clubHmpgId=7106">오잉</a>
+  									</li><li data-id="236047"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=236047&amp;bbsId=204640">오잉</a>
+  									</li><li data-id="260150"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=260150&amp;bbsId=238985">오잉</a>
+  									</li><li data-id="533810"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=533810&amp;bbsId=5043814">오잉</a>
+  									</li><li data-id="188781"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188781&amp;bbsId=168545">오잉</a>
+  									</li><li data-id="556218"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=556218&amp;bbsId=5162441">오잉</a>
   								</li></ul>
   							</li>
-  							<li class="mNavi" data-id="188789"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=223700&amp;bbsId=202921">대성사랑방</a>
+  							<li class="mNavi" data-id="188789"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=223700&amp;bbsId=202921">자습감독</a>
   								<ul class="box" style="display: none;">
   									<li data-id="223700"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=223700&amp;bbsId=202921">명사초청특강</a>
   									</li><li data-id="215650"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=215653&amp;bbsId=195017">학생상담실</a>
   									</li><li data-id="188790"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188790&amp;bbsId=168552">동문활동</a>
   								</li></ul>
   							</li>
-  							<li class="mNavi" data-id="188759"><a href="/gcdaeseong-h/common/openInfoSys.do?mi=506946">정보공개방</a>
-  								<ul class="box" style="display: none;">
-  									<li data-id="506946"><a href="/gcdaeseong-h/common/openInfoSys.do?mi=506946">정보공개안내</a>
-  									</li><li data-id="188760"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188760&amp;bbsId=168525">정보공개</a>
-  									</li><li data-id="188762"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188762&amp;bbsId=168527">교육과정운영계획</a>
-  									</li><li data-id="188764"><a href="/gcdaeseong-h/api/openApi.do?mi=188764">정보목록</a>
-  									</li><li data-id="188766"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188766&amp;bbsId=168531">업무추진비공개방</a>
-  									</li><li data-id="188769"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188769&amp;bbsId=168534">학교회계현황</a>
-  									</li><li data-id="188770"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188770&amp;bbsId=168535">학생.학부모 참여예산 편성</a>
-  									</li><li data-id="188772"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188772&amp;bbsId=168537">학교운영위원회</a>
-  									</li><li data-id="188773"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=188773&amp;bbsId=168538">입찰정보</a>
-  									</li><li data-id="199270"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=199270&amp;bbsId=178559">학교법인덕봉학원</a>
-  									</li><li data-id="233976"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=233976&amp;bbsId=213103">교원능력개발평가</a>
-  									</li><li data-id="241497"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=241497&amp;bbsId=220584">개인정보처리방침</a>
-  									</li><li data-id="250436"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=250436&amp;bbsId=229334">개인정보 위탁 공개</a>
-  									</li><li data-id="257841"><a href="/gcdaeseong-h/na/ntt/selectNttList.do?mi=257841&amp;bbsId=236729">기관장출장공개</a>
-  									</li><li data-id="522552"><a href="/gcdaeseong-h/cm/cntnts/cntntsView.do?mi=522552&amp;cntntsId=16168">사전정보공표</a>
-  									</li><li data-id="533339"><a href="/gcdaeseong-h/common/rcritPblanc.do?mi=533339">채용정보</a>
-  								</li></ul>
-  							</li>
-  							<li class="mNavi" data-id="188796"><a href="#check" onclick="menuAccessCheck('188796', 'gcdaeseong-h')">교직원공간</a>
-  								<ul class="box" style="display: none;">
-  									<li data-id="194744"><a href="#check" onclick="menuAccessCheck('194744', 'gcdaeseong-h')">교무행정알림</a>
-  									</li><li data-id="198149"><a href="#check" onclick="menuAccessCheck('198149', 'gcdaeseong-h')">각종양식자료실</a>
-  									</li><li data-id="233902"><a href="#check" onclick="menuAccessCheck('233902', 'gcdaeseong-h')">기타자료실</a>
-  									</li><li data-id="239731"><a href="#check" onclick="menuAccessCheck('239731', 'gcdaeseong-h')">청렴 및 반부패</a>
-  									</li><li data-id="198153"><a href="#check" onclick="menuAccessCheck('198153', 'gcdaeseong-h')">연수자료실</a>
-  									</li><li data-id="198155"><a href="#check" onclick="menuAccessCheck('198155', 'gcdaeseong-h')">교직원앨범</a>
-  								</li></ul>
-  							</li>
-  								</ul>
-                  <h1><a herf="https://gcdaeseong-h.gne.go.kr/gcdaeseong-h/dv/dietView/selectDietCalendarView.do?mi=231654" target="_black">
-                    급식</a></h1>
+
+<!--페이지-->
+            <center>
+                <form action="action_page.php" method="post">
+              <div class="container">
+                <br>
+                  <p class="logo"> GCDS </p>
+                <br>
+                  <label for="아이디">
+                    <input type="text" placeholder="아이디" name="uname" class="idbox" id="id" required>
+                <br>
+                  <label for="비밀번호">
+                    <input type="password" placeholder="비밀번호" name="psw" class="idbox" id="password" required>
+                <br>
+
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> 로그인 상태 유지
+                  </label>
+                <br>
+                  <p>
+                    <button type="button" style="padding:5px" class="login_button" onClick="location.href='good.html'" >로그인</button>
+                <br>
+                  </p>
+
+                <span class="psw"><a href="id.html">아이디 찾기</a></span>
+                <span class="psw"><a href="id.html">비밀번호 찾기</a></span>
+                <span class="psw"><a href="reg.html">회원가입</a></span>
+              </div>
+
+            </form>
+<!--로그인-->
 
   						</nav>
   						<!--END-->
