@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>거창대성고 커뮤니티</title>
+    <script>
+
+    </script>
+    <style>
+      h1 {
+        padding-top:30px;
+      }
+      .logo {
+        margin:0;
+        color:#262626;
+        font: italic bold 1.5em/1em Georgia, serif ;
+        font-size: 55px;
+        font-weight: 100px;
+      }
+      .container {
+        width: 380px;
+        height: 400px;
+        margin-top:100px;
+        border-radius: 3px;
+        box-shadow: 0px 0px 10px #000;
+      }
+      .idbox {
+        width: 80%;
+        height: 30px;
+        border: 1px solid;
+        border-radius: 3px;
+        border-color: gray;
+        margin:10px;
+      }
+      .login_button {
+        width:80%;
+        color:white;
+        background-color: #C0DFFD;
+        border-radius: 5px;
+        border-style: none;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+    <form action="action_page.php" method="post">
+  <div class="container">
+    <br>
+      <p class="logo"> GCDS </p>
+    <br>
+      <label for="아이디">
+        <input type="text" placeholder="아이디" name="uname" class="idbox" id="id" required>
+    <br>
+      <label for="비밀번호">
+        <input type="password" placeholder="비밀번호" name="psw" class="idbox" id="password" required>
+    <br>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> 로그인 상태 유지
+      </label>
+    <br>
+      <p>
+        <button type="submit" style="padding:5px" class="login_button">로그인</button>
+    <br>
+      </p>
+
+    <span class="psw"><a href="id.html">아이디 찾기</a></span>
+    <span class="psw"><a href="id.html">비밀번호 찾기</a></span>
+    <span class="psw"><a href="reg.html">회원가입</a></span>
+  </div>
+
+</form>
+  </body>
+</html>
